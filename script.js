@@ -4,5 +4,5 @@ document.getElementById('registerForm').addEventListener('submit', function(even
     var name = document.getElementById('name').value;
     var welcomeMessage = document.getElementById('welcomeMessage');
 
-    welcomeMessage.textContent = '¡Bienvenido/a ' + name + '! Gracias por registrarte en el curso de Programación TalentoTech.';
+    welcomeMessage.innerHTML = '¡Bienvenido/a ' + name + '! Gracias por registrarte en el curso de Programación TalentoTech.<br><a href="gracias.html">Salir</a>';
 });
